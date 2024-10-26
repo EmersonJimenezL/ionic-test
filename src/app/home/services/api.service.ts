@@ -9,6 +9,7 @@ export class ApiService {
   constructor(private http: HttpClient) {}
 
   getData() {
+    // realizamos la solicitud a la api
     return this.http.get(this.url);
   }
 }

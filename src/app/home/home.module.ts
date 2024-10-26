@@ -16,6 +16,7 @@ import { ApiService } from './services/api.service';
     HomePageRoutingModule,
     HttpClientModule,
   ],
+  // proveemos el servicio
   providers: [ApiService],
   declarations: [HomePage],
 })
